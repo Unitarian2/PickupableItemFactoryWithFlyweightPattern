@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: HealthPickupable
   m_EditorClassIdentifier: 
   type: 0
-  prefab: {fileID: 2604663031377313462, guid: 401a381a2585fe244aa6558f91ef79c3, type: 3}
+  prefab: {fileID: 9102318433662991416, guid: 2c7be007b77e38f4f804246baa03e273, type: 3}
   despawnDelay: 15
   spawnPos: {x: 0, y: 20, z: 0}
