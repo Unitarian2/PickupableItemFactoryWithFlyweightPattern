@@ -7,10 +7,9 @@ public class FlyweightSettings : ScriptableObject
 {
     public FlyweightType type;
     public GameObject prefab;
-    public float despawnDelay = 15f;
-    public Vector3 spawnPos = new Vector3(0f,20f,0f);
+    
 
-    public Flyweight Create()
+    public virtual Flyweight Create()
     {
         GameObject go = Instantiate(prefab);
         go.SetActive(false);
@@ -22,9 +21,9 @@ public class FlyweightSettings : ScriptableObject
         return flyweight;
     }
 
-    public void OnGet(Flyweight f) => f.gameObject.SetActive(true);
-    public void OnRelease(Flyweight f) => f.gameObject.SetActive(false);
-    public void OnDestroyPoolObject(Flyweight f) => Destroy(f.gameObject);
+    public virtual void OnGet(Flyweight f) => f.gameObject.SetActive(true);
+    public virtual void OnRelease(Flyweight f) => f.gameObject.SetActive(false);
+    public virtual void OnDestroyPoolObject(Flyweight f) => Destroy(f.gameObject);
 
 }
 

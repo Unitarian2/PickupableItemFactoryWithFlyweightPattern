@@ -6,16 +6,7 @@ public class Flyweight : MonoBehaviour
 {
     public FlyweightSettings settings;
 
-    private void OnEnable()
-    {
-        StartCoroutine(DespawnAfterDelay(settings.despawnDelay));
-    }
-
-    IEnumerator DespawnAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        PickupableFactory.ReturnToPool(this);
-    }
+   
 }
 
 
