@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: PickupableItemHealth
   m_EditorClassIdentifier: 
   type: 0
-  prefab: {fileID: 0}
+  prefab: {fileID: 9102318433662991416, guid: 2c7be007b77e38f4f804246baa03e273, type: 3}
   despawnDelay: 15
   spawnPos: {x: 0, y: 20, z: 0}

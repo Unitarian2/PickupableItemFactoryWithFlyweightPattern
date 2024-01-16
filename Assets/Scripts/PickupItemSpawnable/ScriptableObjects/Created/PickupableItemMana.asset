@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c98608c78872bb34a8b7a51e7d9f1ec9, type: 3}
   m_Name: PickupableItemMana
   m_EditorClassIdentifier: 
-  type: 0
-  prefab: {fileID: 0}
+  type: 1
+  prefab: {fileID: 2220164925065523722, guid: af3ca9fbb53c6cc42ac51d2690094d8d, type: 3}
   despawnDelay: 15
   spawnPos: {x: 0, y: 20, z: 0}

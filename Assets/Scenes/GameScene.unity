@@ -1985,9 +1985,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a367ab8a683c0244d9f0671a3db7d91f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flyweightSettings:
-  - {fileID: 11400000, guid: 247419b7af0eb904a9f38aa8bab90b38, type: 2}
-  - {fileID: 11400000, guid: 878dc444dc1c8f247bc2a3ebd6543fdf, type: 2}
+  pickupableItemSettings:
+  - {fileID: 11400000, guid: 74eb6930545b3634981e612148367a9e, type: 2}
+  - {fileID: 11400000, guid: 881921abc4727b847b891b1e4c77ff96, type: 2}
   pickupableParent: {fileID: 1493239538}
 --- !u!4 &337678311
 Transform:
@@ -2464,7 +2464,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: -47.2}
+  m_AnchoredPosition: {x: 0.000061035156, y: -48}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &476410939
